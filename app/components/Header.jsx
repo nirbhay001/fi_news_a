@@ -78,7 +78,7 @@ const Navbar = () => {
                     },
                   )}
                 >
-                  {link.name}
+                  {link.name} jj
                 </Link>
                 </li>
               );
