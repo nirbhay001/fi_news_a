@@ -29,6 +29,7 @@ export default async function handler(request, response) {
   const client = await db.connect();
 
   try {
+    console.log(process.env.POSTGRES_URL);
     // Create table if it doesn't exist
     // await client.sql`CREATE TABLE IF NOT EXISTS pets (name varchar(255), owner varchar(255));`;
 
